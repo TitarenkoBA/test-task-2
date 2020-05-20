@@ -1,0 +1,128 @@
+body {
+	font-size: 16px;
+}
+
+.nav--horizontal {
+	text-align: center;
+	padding: 2% 0;
+}
+
+.nav--horizontal a {
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+	background: inherit;
+	color: inherit;
+}
+
+.nav--horizontal a:hover, a:active {
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	    -ms-transition: all 0.3s;
+	     -o-transition: all 0.3s;
+	        transition: all 0.3s;
+	color: #2c3e50;
+}
+
+
+.header {
+	height: 25vh;
+	padding: 0;
+}
+
+.header__nav {
+	margin: 0 auto;
+}
+
+.header__nav > ul {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	padding: 0;
+}
+
+.header__nav > ul > li {
+	display: inline-block;
+	margin: 0;
+}
+.header__nav > ul > li > ul > li > a {
+	color: #2c3e50;
+}
+
+.header__logo {
+	font-size: 5vh;
+	padding: 3% 0;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.header__logo a {
+	font-size: 1.5em;
+	margin: 0 auto;
+	text-decoration: none;
+	background: transparent;
+	color: inherit;
+}
+
+.header__lang_icon--eng {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background-image: url(../icons/united_kingdom_flags_flag_17079.png);
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+}
+
+.header__lang_icon--rus {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background-image: url(../icons/russia_flags_flag_17058.png);
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+}
+
+.title_block {
+	min-height: 100vh;
+	background-image: url(../imgs/human-at-computer.jpg);
+	background-position: center;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+}
+
+.title_block__title {
+	height: 40%;
+	margin-top: 15%;
+	font-size: 10vh;
+	background: rgba(0, 0, 0, 0.3);
+	padding: 30px;
+}
+
+.business_model_block {
+	min-height: 100vh;
+	background-image: url(../imgs/business-woman-working-on-laptop-in-her-office-lowres.jpg);
+	background-position: center;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	padding-top: 3%;
+}
+
+.business_model_block__title {
+	text-align: center;
+	height: 20%;
+	font-size: 7vh;
+	background: rgba(0, 0, 0, 0.3);
+	padding: 30px;
+}
+
+.footer__nav a {
+	display: block;
+}
+
+.footer__nav .container--justify {
+	margin: 0;
+}
